@@ -26,13 +26,5 @@ int main(){
 
 int perfeito(int a)
 {
-    int receb , receb2;
-    receb = sqrt(a); 
-    receb2 = a/receb;
-
-    if(  a > 0 && receb2 == receb ){
-        return 1;
-    }else{
-        return 0;
-    }
+    return sqrt(a) * sqrt(a) == a;
 }
