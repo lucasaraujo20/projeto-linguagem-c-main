@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int perfeito(int a);
+int perfeito(float a);
 
 int main(){
 
@@ -24,7 +24,7 @@ int main(){
     return 0;
 }
 
-int perfeito(int a)
+int perfeito(float a)
 {
     return sqrt(a) * sqrt(a) == a;
 }
