@@ -18,4 +18,6 @@ int main(){
     soma3 = soma + soma2;
 
     printf("Valor das posicoes %d eh %d : %d \n",x,y,soma3);
+    
+    return 0;
 }
