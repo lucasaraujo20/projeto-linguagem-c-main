@@ -14,13 +14,13 @@ int main(){
 
     printf("\n");
 
-    for(i = 7 ; i < 0; i--)
+    for(i = 6 ; i >= 0; i--)
     {
-        printf("posicao %d \n ", i);
+        printf("posicao %d: %d \n", i, vet[i]);
        
     }
 
 
 
-
+    return 0;
 }
