@@ -8,7 +8,7 @@ int main(){
 
     for(i = 0; i < 7; i++)
     {
-        printf("Digite a posicao %d: ", i);
+        printf("posicao %d: ", i);
         scanf("%d",&vet[i]);
     }
 
