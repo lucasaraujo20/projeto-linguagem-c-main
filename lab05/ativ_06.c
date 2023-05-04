@@ -7,7 +7,7 @@ int main() {
 
  
     for (i = 0; i < 10; i++) {
-        printf("Informe o %do número: ", i+1);
+        printf("Informe o %d o numero: ", i+1);
         scanf("%d", &vetor[i]);
 
         primo = 1;
@@ -18,7 +18,7 @@ int main() {
             }
         }
         if (primo && vetor[i] > 1) {
-            printf("%d (posição %d)\n", vetor[i], i);
+            printf("%d (posicao %d)\n", vetor[i], i);
         }
     }
 
