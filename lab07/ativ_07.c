@@ -16,7 +16,7 @@ int main (){
 
         
 
-        if( pl[i] == 'r' && pl[i+1] == 'r' ||  pl[i] == 'R' && pl[i+1] == 'R'
+        if( pl[i] == 'r' && pl[i+1] == 'r' ||  pl[i] == 'R' && pl[i+1] == 'R'){
 
             pl[i] = 'l';
             pl[i+1] = '\a';
